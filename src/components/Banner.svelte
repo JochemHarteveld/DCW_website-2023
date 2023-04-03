@@ -21,17 +21,17 @@
     .logo-container{
         width: min-content;
         margin: auto;
-        position: relative;
+        position: absolute;
         text-align: center;
         background-color: #870c08;
         border-radius: 50% 50% 0 0;
     }
     img{
-        height: 120px;
+        height: 110px;
     }
     .banner{
         background-color: #9A221E;
-        height: 80px;
+        height: 70px;
         width: 100%;
     }
 

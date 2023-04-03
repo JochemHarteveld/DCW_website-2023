@@ -1,30 +1,43 @@
-<a href="/disputen/mocca">M.O.C.C.A</a>
-<a href="/disputen/taenia">T.A.E.N.I.A</a>
-<a href="/disputen/lucifer">L.U.C.I.F.E.R.</a>
-<a href="/disputen/soixante-neuf">69</a>
-<a href="/disputen/corduroy">Corduroy</a>
-<a href="/disputen/9x7">9x7</a>
-<a href="/disputen/bokkerijders">Bokkerijders</a>
-<a href="/disputen/kink-id">K.I.N.K. ID</a>
-<a href="/disputen/bloq">BLOQ</a>
-<a href="/disputen/witte-wieven">Witte Wieven</a>
-<a href="/disputen/zephyr">Zephyr</a>
-<a href="/disputen/zoutkorrel">Zoutkorrel</a>
-<a href="/disputen/terra">Terra F.</a>
-<a href="/disputen/volante">Volante</a>
-<a href="/disputen/amaryllis">Amaryllis</a>
-<a href="/disputen/kobra">K.O.B.R.A.</a>
-<a href="/disputen/perropates">Perropates</a>
-<a href="/disputen/vinum">Vinum</a>
-<a href="/disputen/supra-modum">Supra Modum</a>
-<a href="/disputen/cupa">C.U.P.A.</a>
+<script>
+    import disputen from "../../disputen";
+    import { page } from '$app/stores';
+
+</script>
+
+<div class="list">
+    {#each disputen as dispuut}
+    <div class="list-item">
+        <a href="{dispuut.dispuutPath}">
+            <!-- <p>{dispuut.name}</p> -->
+                <img class="cover" class:active={$page.url.pathname == dispuut.dispuutPath} src="{dispuut.logoUrl}" alt="">
+        </a>
+    </div>
+{/each}
+</div>
+
+
+
 <slot></slot>
 
 <style>
+  
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        justify-content: space-between;
+    }
 
-    
-    a{
-        margin: 10px;
+    .cover{
+        object-fit: contain;
+        height: 60px;
+        width: 60px;
+        padding: 5px;
+        border: 3px double var(--ink-color);
+    }
+
+    .active{
+        border: 3px solid var(--ink-color);
     }
 </style>
 

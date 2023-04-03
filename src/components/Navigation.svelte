@@ -1,51 +1,62 @@
+<script>
+	import { page } from '$app/stores';
 
+</script>
 
+<img src="/icons/dcw-cropped.svg" alt="">
 <nav>
-	<a href="/">
-		<img src="/icons/home-svgrepo-com.svg" alt="Home icon" />
-		<p>Voorpagina</p>
+	<a href="/" class:active={$page.url.pathname == "/"}>
+		<p>HOME</p>
 	</a>
-	<a href="/planning">
-		<img src="/icons/date-range-svgrepo-com.svg" alt="Home icon" />
-		<p>planning</p>
+	<a href="/planning" class:active={$page.url.pathname == "/planning"}>
+		<p>PLANNING</p>
 	</a>
-	<a href="/jokers">
-		<img src="/icons/boost-for-reddit-svgrepo-com.svg" alt="Home icon" />
-		<p>jokers</p></a
+	<a href="/jokers" class:active={$page.url.pathname == "/jokers"}>
+		<p>JOKERS</p></a
 	>
-	<a href="/tussenstand">
-		<img src="/icons/skull-line-drawing-svgrepo-com.svg" alt="Home icon" />
-		<p>tussenstand</p>
+	<a href="/tussenstand" class:active={$page.url.pathname == "/tussenstand"}>
+		<p>SCOREBORD</p>
 	</a>
-	<a href="/disputen">
-		<img src="/icons/skull-line-drawing-svgrepo-com.svg" alt="Home icon" />
-		<p>Disputen</p>
+	<a href="/disputen" class:active={$page.url.pathname == "/disputen"}>
+		<p>DISPUTEN</p>
 	</a>
+	<div class="space">
+		
+	</div>
 </nav>
 
 <style>
+	.active{
+		border-left: 2px solid var(--ink-color);
+		border-right: 2px solid var(--ink-color);
+		font-weight: bold;
+		color: brown;
+	}
+
 	nav {
 		display: flex;
 		align-items: center;
-		height: 75px;
+		border-top: 2px solid var(--ink-color);
+		border-bottom: 2px solid var(--ink-color);
+		margin-left: 40px;
 	}
 
 	a {
-		padding: 16px;
         text-align: center;
         text-decoration: none;
-        color: #473e2c;
-		background-color: #f2e7d4;
+        color: var(--ink-color);
         flex: 1;
-        border: 1px solid #473e2c;
 		transition: all 0.3s ease;
+		padding: 20px;
 	}
 
-    a:hover{
-        background-color: #ead5b1;
-    }
-
-	img {
-		height: 3rem;
+	img{
+		position: absolute;
+		height: 80px;
+		top: 20px;
+		background-color: brown;
+		border-radius: 50%;
 	}
+
+
 </style>
