@@ -1,4 +1,6 @@
 import { error } from '@sveltejs/kit';
+import { base } from '$app/paths';
+
 
 export const ssr = false;
 /** @type {import('./$types').PageLoad} */
@@ -94,7 +96,7 @@ export function load({ params }) {
 	if (params.slug === 'terra') {
 		return {
 			content:
-				'<div style="display:flex;"><h1 style="margin-right: 10px;">Terra</h1> <a href="/disputen/terra-f"><h1>F.</h1><a/></div>'
+				`<div style="display:flex;"><h1 style="margin-right: 10px;">Terra</h1> <a href="${base}/disputen/terra-f"><h1>F.</h1><a/></div>`
 		};
 	}
 	if (params.slug === 'terra-f') {
