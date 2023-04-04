@@ -1,6 +1,9 @@
 <script>
 	import Footer from '../components/Footer.svelte';
-import Navigation from '../components/Navigation.svelte';
+	import Navigation from '../components/Navigation.svelte';
+
+	export const prerender = true;
+	export const trailingSlash = 'always';
 </script>
 
 <div class="container">

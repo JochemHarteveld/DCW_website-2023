@@ -1,14 +1,20 @@
 <footer>
     <div class="top">
-        <img src="/icons/dcw-cropped.svg" alt="">
+        <div class="logo">
+            <img src="/icons/dcw-cropped.svg" alt="">
+            <h1>DCWe gaan er aan</h1>
+        </div>
         <div class="links">
             <div>
-                <h2>Platform</h2>
-                <a href="#">Directus Core</a>
+                <h2>SSR</h2>
+                <a href="#">Pas opwaarderen</a>
+                <a href="#">Maaltijdsite</a>
+                <a href="#">Teller</a>
+
                 <!-- More links -->
             </div>
             <div>
-                <h2>Cloud</h2>
+                <h2>Contact</h2>
                 <a href="#">Directus Core</a>
             </div>
         </div>
@@ -21,9 +27,15 @@
         <a href="">License</a>
     </div>
     <div class="links">
-        <a href="" class="fa-brands fa-github"></a>
-        <a href="" class="fa-brands fa-linkedin"></a>
-        <a href="" class="fa-brands fa-fa-docker"></a>
+        <a href="" class="fa-brands fa-github">
+            <img src="/flaticon/envelope.svg" alt="Email icon">
+        </a>
+        <a href="" class="fa-brands fa-linkedin">
+            <img src="/flaticon/instagram.svg" alt="Instagram icon">
+        </a>
+        <a href="" class="fa-brands fa-fa-docker">
+            <img src="/flaticon/whatsapp.svg" alt="Whatsapp icon">
+        </a>
 
     </div>
    </div>
@@ -36,15 +48,24 @@
         height: 40px;
     }
 
+    .logo{
+        display: flex;
+    }
+
+    .logo h1{
+        justify-content: center;
+        line-height: 40px;
+        margin-left: 6px;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
     footer{
         display: flex;
         align-items: flex-start;
         gap: 40px;
         margin: 0 30px;
         color: var(--ink-color);
-        border-top: 1px solid var(--ink-color);
-        margin-top: 1rem;
-        background-color: bisque;
     }
 
     .top{
@@ -93,31 +114,9 @@
         gap: 18px;
     }
 
-    @media (max-width: 620px) {
+    @media (max-width: 420px) {
         footer {
-            flex-direction: column;
-        }
-
-        .bottom{
-            gap: 16px;
-            flex-direction: column-reverse;
-        }
-    }
-
-    @media (min-width: 621px) and (max-width: 1023px){
-        footer {
-            margin: 0 auto;
-            max-width: 600;
-            padding: 0;
-        }
-
-        .bottom .links > a {
-            font-size: 24px;
-        }
-    }
-
-    @media (max-width: 419px){
-        footer{
+            background-color: red;
             text-align: center;
             align-items: center;
         }
@@ -130,11 +129,43 @@
             align-items: center;
         }
 
-        .legal > span {
+        .legal > span{
             display: block;
-            margin-right: 0;
-            margin-bottom: 2px;
+            margin-right: 2px;
         }
+    }
+
+    @media (max-width: 620px){
+        footer {
+            background-color: orange;
+            flex-direction: column;
+        }
+
+        .bottom{
+            gap: 16px;
+            flex-direction: column-reverse;
+        }
+
+    }
+
+    @media (min-width: 620px){
+        footer{
+            background-color: yellow;
+            margin: 0 auto;
+            max-width: 600px;
+            padding: 0;
+            flex-direction: column;
+
+        }
+
+        .top{
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .bottom .links > a{
+            font-size: 24px;
+        }
+
     }
 
 </style>
