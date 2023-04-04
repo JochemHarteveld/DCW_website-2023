@@ -1,15 +1,17 @@
 <script>
     import disputen from "../../disputen";
     import { page } from '$app/stores';
+    import { base } from '$app/paths';
+
 
 </script>
 
 <div class="list">
     {#each disputen as dispuut}
     <div class="list-item">
-        <a href="{dispuut.dispuutPath}">
+        <a href="{base}{dispuut.dispuutPath}">
             <!-- <p>{dispuut.name}</p> -->
-                <img class="cover" class:active={$page.url.pathname == dispuut.dispuutPath} src="{dispuut.logoUrl}" alt="">
+                <img class="cover" class:active={$page.url.pathname == dispuut.dispuutPath} src="{base}{dispuut.logoUrl}" alt="">
         </a>
     </div>
 {/each}

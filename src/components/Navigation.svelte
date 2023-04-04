@@ -4,7 +4,7 @@
 
 </script>
 
-<img src="/icons/dcw-cropped.svg" alt="">
+<img src="{base}/icons/dcw-cropped.svg" alt="">
 <nav>
 	<a href="{base}/" class:active={$page.url.pathname == "/"}>
 		<p>HOME</p>
