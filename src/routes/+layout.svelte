@@ -2,8 +2,6 @@
 	import Footer from '../components/Footer.svelte';
 	import Navigation from '../components/Navigation.svelte';
 
-	export const ssr = false;
-	export const trailingSlash = 'always';
 </script>
 
 <div class="container">
