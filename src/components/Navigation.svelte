@@ -1,23 +1,24 @@
 <script>
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
 
 </script>
 
 <img src="/icons/dcw-cropped.svg" alt="">
 <nav>
-	<a href="/" class:active={$page.url.pathname == "/"}>
+	<a href="{base}/" class:active={$page.url.pathname == "/"}>
 		<p>HOME</p>
 	</a>
-	<a href="/planning" class:active={$page.url.pathname == "/planning"}>
+	<a href="{base}/planning" class:active={$page.url.pathname == "/planning"}>
 		<p>PLANNING</p>
 	</a>
-	<a href="/jokers" class:active={$page.url.pathname == "/jokers"}>
+	<a href="{base}/jokers" class:active={$page.url.pathname == "/jokers"}>
 		<p>JOKERS</p></a
 	>
-	<a href="/tussenstand" class:active={$page.url.pathname == "/tussenstand"}>
+	<a href="{base}/tussenstand" class:active={$page.url.pathname == "/tussenstand"}>
 		<p>SCOREBORD</p>
 	</a>
-	<a href="/disputen" class:active={$page.url.pathname == "/disputen"}>
+	<a href="{base}/disputen" class:active={$page.url.pathname == "/disputen"}>
 		<p>DISPUTEN</p>
 	</a>
 	<div class="space">

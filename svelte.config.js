@@ -14,7 +14,8 @@ const config = {
 			strict: true,
 		}),
 		paths: {
-			base: dev ? '': '/DCW_website-2023'
+			base: dev ? '': '/DCW_website-2023',
+			assets:  dev ? '': '/DCW_website-2023'
 		}
 	
 	}
