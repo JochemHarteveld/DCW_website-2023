@@ -1,5 +1,5 @@
 <script>
-    import disputen from "../../disputen";
+    import disputen from "../../../disputen";
     import { page } from '$app/stores';
     import { base } from '$app/paths';
 
