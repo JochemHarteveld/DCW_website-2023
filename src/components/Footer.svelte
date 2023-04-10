@@ -64,7 +64,6 @@
         display: flex;
         align-items: flex-start;
         gap: 40px;
-        margin: 0 30px;
         color: var(--ink-color);
     }
 

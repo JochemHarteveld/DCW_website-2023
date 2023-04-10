@@ -1,10 +1,3 @@
-<script>
-</script>
-
-<!-- Book -->
-
-<!-- <Book></Book> -->
-<style>
-	
-	
-</style>
+<h1>
+    Home
+</h1>
