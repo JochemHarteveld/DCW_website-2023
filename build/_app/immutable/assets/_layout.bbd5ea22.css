@@ -2,7 +2,7 @@
 :root{--ink-color:#473e2c;--primary-color:#9a221e}
 .container.svelte-cqh5aa{margin:1rem}
 *{margin:0;padding:0;box-sizing:border-box;font-family:'Courier Prime', monospace}
-body{height:100vh;max-width:100vw;font-family:sans-serif;background:url(/DCW_website-2023/newspaper.jpg);object-fit:cover}
+body{height:100vh;max-width:100vw;font-family:sans-serif;background:url(/newspaper.jpg);object-fit:cover}
 html{height:100vh;width:100vw}
 h1, h2, h3, h4, h5, h6, p, a{color:var(--ink-color)}
 a{line-height:20px}

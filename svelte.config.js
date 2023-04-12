@@ -7,18 +7,13 @@ const dev = process.argv.includes('dev');
 const config = {
 	kit: {
 		adapter: adapter({
-			pages: 'docs',
-			assets: 'docs',
+			pages: 'build',
+			assets: 'build',
 			fallback: 'index.html',
 			precompress: false,
 			strict: true,
-		}),
-		paths: {
-			base: dev ? '': '/DCW_website-2023'
-			// base: '/DCW_website-2023'
-		}
+		})
 	}
-
 };
 
 export default config;
