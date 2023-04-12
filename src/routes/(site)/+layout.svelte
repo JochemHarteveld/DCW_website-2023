@@ -22,10 +22,7 @@
 		--primary-color: #9a221e;
 	}
 
-	.container {
-		margin: 1rem;
-	}
-
+	
 	:global(*) {
 		margin: 0;
 		padding: 0;
