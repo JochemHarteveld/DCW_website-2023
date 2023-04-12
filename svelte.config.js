@@ -17,8 +17,8 @@ const config = {
 			base: dev ? '': '/DCW_website-2023'
 			// base: '/DCW_website-2023'
 		}
-	
 	}
+
 };
 
 export default config;
