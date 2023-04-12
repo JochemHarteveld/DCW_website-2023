@@ -22,7 +22,7 @@
 	{#each links as link}
 		<a
 			href={link.route}
-			class="link {$page.route.id.split('/')[1] == link.route.split('/')[1] ? 'active' : ''}"
+			class="link {$page.route.id.split('/')[2] == link.route.split('/')[1] ? 'active' : ''}"
 			>{link.label}</a
 		>
 	{/each}
