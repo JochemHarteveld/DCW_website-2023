@@ -1,0 +1,13 @@
+import{S as B,i as x,s as H,k as i,q as o,a as y,l,m as f,r as v,h as u,c as I,n as _,b as L,G as t,H as b}from"../chunks/index.058e4538.js";function M(S){let n,d,c,g,e,h,m,k,j,p,w,z;return{c(){n=i("div"),d=i("h1"),c=o("Alle disputen overleden"),g=y(),e=i("div"),h=o(`Breaking news! Bij de studentenvereniging SSR-Leiden zijn alle disputen overleden.\r
+\r
+Het is een trieste dag voor de vereniging, die bekend stond om zijn actieve disputen en levendige studentenleven. Maar laten we eerlijk zijn, wie had gedacht dat een groep studenten die bekend staan om hun liefde voor drank, feestjes en het ontdekken van nieuwe grenzen, uiteindelijk niet de meest verantwoordelijke mensen ter wereld zouden zijn?\r
+\r
+`),m=i("br"),k=i("br"),j=o(`\r
+\r
+In elk geval zullen de disputen gemist worden, hoewel het waarschijnlijk voor een enorme stilte zal zorgen op de volgende studentenfeesten. Maar laten we niet te hard oordelen. Het leven van een student is tenslotte kort en soms moet je gewoon wat risico's nemen om er het beste van te maken. `),p=i("br"),w=i("br"),z=o(" Rust in vrede, SSR-Leiden disputen. Jullie zijn nu officieel een deel van de legende van de studentencultuur."),this.h()},l(r){n=l(r,"DIV",{class:!0});var a=f(n);d=l(a,"H1",{class:!0});var R=f(d);c=v(R,"Alle disputen overleden"),R.forEach(u),g=I(a),e=l(a,"DIV",{class:!0});var s=f(e);h=v(s,`Breaking news! Bij de studentenvereniging SSR-Leiden zijn alle disputen overleden.\r
+\r
+Het is een trieste dag voor de vereniging, die bekend stond om zijn actieve disputen en levendige studentenleven. Maar laten we eerlijk zijn, wie had gedacht dat een groep studenten die bekend staan om hun liefde voor drank, feestjes en het ontdekken van nieuwe grenzen, uiteindelijk niet de meest verantwoordelijke mensen ter wereld zouden zijn?\r
+\r
+`),m=l(s,"BR",{}),k=l(s,"BR",{}),j=v(s,`\r
+\r
+In elk geval zullen de disputen gemist worden, hoewel het waarschijnlijk voor een enorme stilte zal zorgen op de volgende studentenfeesten. Maar laten we niet te hard oordelen. Het leven van een student is tenslotte kort en soms moet je gewoon wat risico's nemen om er het beste van te maken. `),p=l(s,"BR",{}),w=l(s,"BR",{}),z=v(s," Rust in vrede, SSR-Leiden disputen. Jullie zijn nu officieel een deel van de legende van de studentencultuur."),s.forEach(u),a.forEach(u),this.h()},h(){_(d,"class","svelte-1no2ll"),_(e,"class","text svelte-1no2ll"),_(n,"class","container svelte-1no2ll")},m(r,a){L(r,n,a),t(n,d),t(d,c),t(n,g),t(n,e),t(e,h),t(e,m),t(e,k),t(e,j),t(e,p),t(e,w),t(e,z)},p:b,i:b,o:b,d(r){r&&u(n)}}}class q extends B{constructor(n){super(),x(this,n,null,M,H,{})}}export{q as default};
