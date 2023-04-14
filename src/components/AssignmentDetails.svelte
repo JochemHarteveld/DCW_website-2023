@@ -46,7 +46,7 @@
 			<button on:click={toggleSchedule}>{showSchedule ? 'Verberg schema' : 'Toon schema'}</button>
 		</div>
 		{#if showSchedule}
-			<select name="disputen" id="disputen" on:change={selectGroup}>
+			<!-- <select name="disputen" id="disputen" on:change={selectGroup}>
 				<option value="all">Alle disputen</option>
 				<option value="mocca">M.O.C.C.A</option>
 				<option value="taenia">T.A.E.N.I.A.</option>
@@ -68,7 +68,7 @@
 				<option value="vinum">VINUM</option>
 				<option value="supra-modum">Supra Modum</option>
 				<option value="cupa">C.U.P.A.</option>
-			</select>
+			</select> -->
 			<div class="schedule">
 				<table>
 					{#each assignment.schedule as row}

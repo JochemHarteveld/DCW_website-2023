@@ -26,5 +26,7 @@
 		font-family: 'Courier Prime', monospace;
         padding: 0 10px;
         padding-bottom: 25px;
+        max-width: 600px;
+        margin: auto;
 	}
 </style>

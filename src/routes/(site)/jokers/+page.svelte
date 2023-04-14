@@ -1,1 +1,7 @@
-<h1>Jokers</h1>
+<h1>[Hier komt later meer info]</h1>
+
+<style>
+    h1{
+        text-align: center;
+    }
+</style>
