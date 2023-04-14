@@ -12,8 +12,6 @@
 <style>
    .container {
 		height: 100%;
-		margin-left: 15px;
-		border-left: 2px solid var(--ink-color);
 	}
 
 
