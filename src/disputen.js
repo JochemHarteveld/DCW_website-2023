@@ -14,7 +14,7 @@ const disputen = [
     {name: "Zephyr", logoUrl:"/dispuut_logos/Zephyr.png", dispuutPath: basePath + "/zephyr"},
     // [Vul hier zelf je leukste herinnering aan het Zoutkorrel in]
     {name: "Het Zoutkorrel", logoUrl:"/dispuut_logos/Het Zoutkorrel.png", dispuutPath: basePath + "/zoutkorrel"},
-    {name: "Terra F.", logoUrl:"/dispuut_logos/Terra F..png", dispuutPath: basePath + "/terra"},
+    {name: "Terra F. log",oUrl:"/dispuut_logos/Terra F..png", dispuutPath: basePath + "/terra"},
     {name: "Volante", logoUrl:"/dispuut_logos/Volante.png", dispuutPath: basePath + "/volante"},
     {name: "Amaryllis", logoUrl:"/dispuut_logos/Amaryllis.png", dispuutPath: basePath + "/amaryllis"},
     {name: "K.O.B.R.A.", logoUrl:"/dispuut_logos/K.O.B.R.A..png", dispuutPath: basePath + "/kobra"},

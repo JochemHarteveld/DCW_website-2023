@@ -11,7 +11,9 @@
 		{ label: 'PLANNING', route: '/planning' },
 		{ label: 'DISPUTEN', route: '/disputen' },
 		{ label: 'JOKERS', route: '/jokers' },
-		{ label: 'SCOREBORD', route: '/tussenstand' }
+		{ label: 'SCOREBORD', route: '/tussenstand' },
+		{ label: 'REGELS', route: '/regels' }
+
 	];
 </script>
 
@@ -56,6 +58,7 @@
 
 	.link {
 		padding: 14px 16px;
+		font-size: .9em;
 	}
 
 	/* Change the color of links on hover */
