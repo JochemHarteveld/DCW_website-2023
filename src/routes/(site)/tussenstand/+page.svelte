@@ -9,7 +9,9 @@
 			<div class="item {index == 0 ? 'first' : '' } {index==1 ? 'second':''} {index==2 ? 'third':''}">
 				<h3 class="position">{index + 1}.</h3>
 				<h2 class="dispuut-name">{dispuut.name}</h2>
-				<h4 class="score">0</h4>
+				<h4 class="score">
+					{dispuut.score}
+				</h4>
 			</div>
 		{/each}
 	</div>
