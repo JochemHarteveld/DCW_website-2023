@@ -7,7 +7,7 @@ export const assignments = [
         title: "Survival DIY",
         location: null,
         startTime: "10:00",
-        endTime: "17:00",
+        endTime: "16:00",
         recommendedNumberOfParticipants: ">1 persoon",
         deliverMethod: "Demonstratiefilmpje waarin alle onderdelen van het overlevingspakket worden uitgelegd.",
         compensation: "10 EURO (mits bonnetje)",

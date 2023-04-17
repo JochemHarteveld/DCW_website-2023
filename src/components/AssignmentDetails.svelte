@@ -20,6 +20,9 @@
 	<h2>{assignment.title}</h2>
 	<div class="info">
 		<li>Tijd: {assignment.startTime}</li>
+		{#if assignment.endTime}
+			<li>Deadline: {assignment.endTime}</li>
+		{/if}
 		{#if assignment.recommendedNumberOfParticipants}
 			<li>Personen: {assignment.recommendedNumberOfParticipants}</li>
 		{/if}
@@ -36,11 +39,16 @@
 	<p>
 		{assignment.description}
 	</p>
-	<!-- <div class="requirements">
-        {#each assignment.requirements as requirement}
-            <li>{requirement}</li>
-        {/each}
-    </div> -->
+	<div class="requirements">
+		{#if assignment.requirements != null}
+
+			<ul class="requirements">
+				{#each assignment.requirements as requirement}
+					<li >{requirement}</li>
+				{/each}
+			</ul>
+		{/if}
+	</div>
 	{#if assignment.schedule}
 		<div class="controls">
 			<button on:click={toggleSchedule}>{showSchedule ? 'Verberg schema' : 'Toon schema'}</button>
@@ -130,15 +138,19 @@
 		margin: 16px 0;
 	}
 
-	button, select {
+	button,
+	select {
 		background-color: var(--ink-color);
 		color: var(--background-color);
 		padding: 10px;
 		border: none;
 	}
 
+	.requirements{
+		
+	}
+
 	@media screen and (min-width: 600px) {
-	
 		article {
 			margin-bottom: 10px;
 		}
