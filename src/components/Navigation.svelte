@@ -12,7 +12,8 @@
 		{ label: 'DISPUTEN', route: '/disputen' },
 		{ label: 'JOKERS', route: '/jokers' },
 		{ label: 'SCOREBORD', route: '/tussenstand' },
-		{ label: 'REGELS', route: '/regels' }
+		{ label: 'REGELS', route: '/regels' },
+		{ label: 'REDACTIE', route: '/redactie' }
 
 	];
 </script>
