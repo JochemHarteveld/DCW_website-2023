@@ -82,8 +82,9 @@
 		padding: 10px 0 0 0;
 		font-weight: bold;
 	}
-	h5 {
-		margin-bottom: 20px;
+	h4 {
+		margin-top: 20px;
+		margin-bottom: 10px;
 	}
 
 	@media screen and (min-width: 600px) {
