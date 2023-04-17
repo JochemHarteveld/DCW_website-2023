@@ -1,6 +1,23 @@
 <div class="container">
 	<h1>NET BINNEN</h1>
 	<article>
+		<h2>BREAKING NEWS: ER IS EEN NIEUWE JOKERSYSTEEM</h2>
+		<h5>Maandag 00:15</h5>
+		<h4>De Redactie heeft het oude jokersysteem op brute wijze vermoord</h4>
+		<p>
+			Dit jaar heeft de DCW commissie een nieuwe jokersysteem in elkaar gezet. Tijdens de DCWeek maak je kans op dagjokers en een weekjoker. Deze jokers kunnen worden behaald door het vervullen van jokerdag- en jokerweekopdrachten. De jokerdag- en weekopdrachten zullen samen met de andere opdrachten gedeeld worden via Instagram.
+
+		</p>
+	</article>
+	<article>
+		<h2>DCW Officieel Begonnen</h2>
+		<h5>Maandag 00:00</h5>
+		<h4>De enthousiaste disputen van SSR-Leiden gaan te strijd</h4>
+		<p>
+			De aftrap van de DCW is toch eindelijk daar. Wie gaat er winnen, wie gaan er sneuvelen. U leest heet het mee op deze live-blog!
+		</p>
+	</article>
+	<article>
 		<h2>Schoonheim kan geen rietbak trekken</h2>
 		<h4>Fanatieke bierdrinker verliest van uitdaging</h4>
 		<p>
@@ -62,10 +79,10 @@
 		padding: 20px 15px;
 	}
 	h2 {
-		padding: 10px 0;
+		padding: 10px 0 0 0;
 		font-weight: bold;
 	}
-	h4 {
+	h5 {
 		margin-bottom: 20px;
 	}
 
