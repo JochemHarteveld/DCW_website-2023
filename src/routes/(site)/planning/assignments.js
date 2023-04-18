@@ -206,7 +206,7 @@ export const assignments = [
         startTime: "21:00",
         endTime: null,
         recommendedNumberOfParticipants: "maximaal 10 per dispuut",
-        deliverMethod: "Er zal nog een form komen waarmee ieder dispuut zich op kan geven voor de karaoke",
+        deliverMethod: "Doe opgeven via form",
         compensation: null,
         description: "Tijd om de overwinning te vieren met karaoke!! Zing alsof het je laatste avond is en zorg dat je dispuut er niet aan gaat van de zenuwen. Wie hebben de meest gouden keeltjes van SSR?",
         requirements: null,

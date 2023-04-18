@@ -49,34 +49,15 @@
 			</ul>
 		{/if}
 	</div>
+	{#if assignment.daypart == "Woensdagavond"}
+		<a href="https://forms.gle/3CTKQcN4sTi6uaSH8">Aanmelden</a>
+	{/if}
 	{#if assignment.schedule}
 		<div class="controls">
 			<button on:click={toggleSchedule}>{showSchedule ? 'Verberg schema' : 'Toon schema'}</button>
 		</div>
 		{#if showSchedule}
-			<!-- <select name="disputen" id="disputen" on:change={selectGroup}>
-				<option value="all">Alle disputen</option>
-				<option value="mocca">M.O.C.C.A</option>
-				<option value="taenia">T.A.E.N.I.A.</option>
-				<option value="lucifer">L.U.C.I.F.E.R.</option>
-				<option value="soixante-neuf">L.D.G. Soixante-Neuf</option>
-				<option value="corduroy">Corduroy</option>
-				<option value="9X7">9X7</option>
-				<option value="bokkerijders">Bokkerijders</option>
-				<option value="kinkid">K.I.N.K. ID</option>
-				<option value="bloq">BLOQ</option>
-				<option value="witte-wieven">Witte Wieven</option>
-				<option value="zephyr">Zephyr</option>
-				<option value="zoutkorrel">Zoutkorrel</option>
-				<option value="terra-f">Terra F.</option>
-				<option value="volante">Volante</option>
-				<option value="amaryllis">Amaryllis</option>
-				<option value="kobra">K.O.B.R.A.</option>
-				<option value="perropates">Perropates</option>
-				<option value="vinum">VINUM</option>
-				<option value="supra-modum">Supra Modum</option>
-				<option value="cupa">C.U.P.A.</option>
-			</select> -->
+			
 			<div class="schedule">
 				<table>
 					{#each assignment.schedule as row}
@@ -139,7 +120,7 @@
 	}
 
 	button,
-	select {
+	select, a {
 		background-color: var(--ink-color);
 		color: var(--background-color);
 		padding: 10px;
