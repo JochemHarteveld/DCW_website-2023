@@ -108,7 +108,7 @@ export const assignments = [
             ["20:50 - 21:10", "M.O.C.C.A. vs. Supra Modum", "Stef stuntpiloot"],
 
             // Ronde 3
-            ["21:10 - 21:30", "L.U.C.I.F.E.R. vs. 9x7", "Dr. Bibber"],
+            ["21:10 - 21:30", "Witte wieven vs. Terra F.", "Dr. Bibber"],
             ["21:10 - 21:30", "T.A.E.N.I.A. vs. Corduroy", "Jenga"],
             ["21:10 - 21:30", "L.D.G. Soixante-neuf vs. Bokkerijders", "Memory"],
             ["21:10 - 21:30", "VINUM vs. Zephyr", "Mega Beerpong"],
@@ -143,9 +143,9 @@ export const assignments = [
             ["22:30 - 22:50", "Volante vs. Amaryllis", "Stef stuntpiloot"],
 
             // Ronde 8
-            ["22:50 - 23:10", "L.D.G. Soixante-neuf vs. Corduroy", "Dr. Bibber"],
+            ["22:50 - 23:10", "L.D.G. Soixante-neuf vs. Terra F.", "Dr. Bibber"],
             ["22:50 - 23:10", "Zephyr vs. Supra Modum", "Jenga"],
-            ["22:50 - 23:10", "M.O.C.C.A. vs. Terra F.", "Memory"],
+            ["22:50 - 23:10", "M.O.C.C.A. vs. Corduroy", "Memory"],
             ["22:50 - 23:10", "T.A.E.N.I.A. vs. Amaryllis", "Mega Beerpong"],
             ["22:50 - 23:10", "Bokkerijders vs. C.U.P.A.", "Stef stuntpiloot"],
 
@@ -158,10 +158,10 @@ export const assignments = [
 
             // Ronde 10
             ["23:30 - 23:50", "T.A.E.N.I.A. vs. C.U.P.A.", "Dr. Bibber"],
-            ["23:30 - 23:50", "K.I.N.K. ID vs. Bokkerijders", "Jenga"],
+            ["23:30 - 23:50", "K.I.N.K. ID vs. Perropates", "Jenga"],
             ["23:30 - 23:50", "BLOQ vs. Zoutkorrel", "Memory"],
             ["23:30 - 23:50", "L.D.G. Soixante-neuf vs. Supra Modum", "Mega Beerpong"],
-            ["23:30 - 23:50", "K.O.B.R.A. vs. Perropates", "Stef stuntpiloot"],
+            ["23:30 - 23:50", "K.O.B.R.A. vs. Bokkerijders", "Stef stuntpiloot"],
         ],
     },
     {

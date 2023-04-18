@@ -1,5 +1,10 @@
 <script>
+	import { onMount } from 'svelte';
 	import disputen from '../../../disputen';
+
+
+
+
 </script>
 
 <div class="container">
