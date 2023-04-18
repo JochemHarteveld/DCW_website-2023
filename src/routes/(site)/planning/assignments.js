@@ -252,7 +252,9 @@ export const assignments = [
         compensation: null,
         description: "Zoals Jezus op donderdag zijn laatste avondmaal had, gaan wij ook van jullie kookkunsten genieten! Haal je inner Gordon Ramsey naar boven en hak de andere disputen in de pan! Welke maaltijd zou jullie laatste avondmaal zijn?",
         requirements: [
-            "Let op: bij het nagerecht zal het extra gewaardeerd worden als het toetje in thema staat van onze jarige Quaestor Jasper!"
+            "Let op: bij het nagerecht zal het extra gewaardeerd worden als het toetje in thema staat van onze jarige Quaestor Jasper!",
+            "Allergieen: Pindas, noten, garnalen, paprikas (Sporen van is okeey).",
+            "Kaas op eigen risico"
         ],
         schedule: [
             ["Soort eten", "Ronde", "Tijd", "Disputen"],
