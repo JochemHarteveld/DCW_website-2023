@@ -1,14 +1,26 @@
 <script>
 	import disputen from '../../../disputen';
+	import { onMount } from 'svelte';
 
+
+	let groups = [];
+
+	onMount(() => {
+		groups = disputen.sort((a, b) => b.score - a.score);
+		console.log(groups)
+	});
 
 </script>
 
 <div class="container">
 	<h1>SCOREBORD</h1>
 	<div class="list">
-		{#each disputen as dispuut, index}
-			<div class="item {index == 0 ? 'first' : '' } {index==1 ? 'second':''} {index==2 ? 'third':''}">
+		{#each groups as dispuut, index}
+			<div
+				class="item {index == 0 ? 'first' : ''} {index == 1 ? 'second' : ''} {index == 2
+					? 'third'
+					: ''}"
+			>
 				<h3 class="position">{index + 1}.</h3>
 				<h2 class="dispuut-name">{dispuut.name}</h2>
 				<h4 class="score">
@@ -21,8 +33,8 @@
 
 <style>
 	.list {
-        max-width: 600px;
-        margin: auto;
+		max-width: 600px;
+		margin: auto;
 		border: 3px double var(--ink-color);
 	}
 
@@ -67,11 +79,11 @@
 		border: 6px double;
 	}
 
-    .second{
-        border: 2px solid;
-    }
+	.second {
+		border: 2px solid;
+	}
 
-    .third{
-        border: 3px dashed;
-    }
+	.third {
+		border: 3px dashed;
+	}
 </style>
