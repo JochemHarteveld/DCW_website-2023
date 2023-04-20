@@ -1,12 +1,93 @@
 <div class="container">
 	<h1>NET BINNEN</h1>
 	<article>
+		<h2>LASERGAME SCORES</h2>
+		<h5>Disclaimer: Dit zijn niet de score die je dispuut er bij gekregen heeft</h5>
+		<h4>Iedereen neergekald</h4>
+		<p>
+			"PIEUW PIEUW PIEUW, was leuk" - de redactie
+		</p>
+		<table>
+			<tr>
+				<th>Dispuut</th>
+				<th>Score</th>
+			</tr>
+			<tr>
+				<td> Zephyr </td>
+				<td> 4395</td>
+			</tr>
+			<tr>
+				<td> Corduroy </td>
+				<td> 3190 </td>
+			</tr>
+			<tr>
+				<td> L.U.C.I.F.E.R. </td>
+				<td> 3145 </td>
+			</tr>
+			<tr>
+				<td> T.A.E.N.I.A.</td>
+				<td> 2710 </td>
+			</tr>
+			<tr>
+				<td> Perropates </td>
+				<td> 2640 </td>
+			</tr>
+			<tr>
+				<td> C.U.P.A. & BLOQ </td>
+				<td> 2600 </td>
+			</tr>
+			<tr>
+				<td> Zoutkorrel </td>
+				<td> 2360 </td>
+			</tr>
+			<tr>
+				<td> L.D.G. Soixante-Neuf </td>
+				<td> 2320 </td>
+			</tr>
+			<tr>
+				<td> M.O.C.C.A.</td>
+				<td> 2255 </td>
+			</tr>
+			<tr>
+				<td> Witte Wieven</td>
+				<td> 1965 </td>
+			</tr>
+			<tr>
+				<td> Terra F.</td>
+				<td> 1695 </td>
+			</tr>
+			<tr>
+				<td> K.O.B.R.A</td>
+				<td> 1570 </td>
+			</tr>
+			<tr>
+				<td> 9X7</td>
+				<td> 1540 </td>
+			</tr>
+			<tr>
+				<td> Volante</td>
+				<td> 1480 </td>
+			</tr>
+			<tr>
+				<td> K.I.N.K. ID</td>
+				<td> 1415 </td>
+			</tr>
+			<tr>
+				<td> Klinkt Bekend</td>
+				<td> 630 </td>
+			</tr>
+			<tr />
+		</table>
+	</article>
+	<article>
 		<h2>BREAKING NEWS: ER IS EEN NIEUWE JOKERSYSTEEM</h2>
 		<h5>Maandag 00:15</h5>
 		<h4>De Redactie heeft het oude jokersysteem op brute wijze vermoord</h4>
 		<p>
-			Dit jaar heeft de DCW commissie een nieuwe jokersysteem in elkaar gezet. Tijdens de DCWeek maak je kans op dagjokers en een weekjoker. Deze jokers kunnen worden behaald door het vervullen van jokerdag- en jokerweekopdrachten. De jokerdag- en weekopdrachten zullen samen met de andere opdrachten gedeeld worden via Instagram.
-
+			Dit jaar heeft de DCW commissie een nieuwe jokersysteem in elkaar gezet. Tijdens de DCWeek
+			maak je kans op dagjokers en een weekjoker. Deze jokers kunnen worden behaald door het
+			vervullen van jokerdag- en jokerweekopdrachten. De jokerdag- en weekopdrachten zullen samen
+			met de andere opdrachten gedeeld worden via Instagram.
 		</p>
 	</article>
 	<article>
@@ -14,7 +95,8 @@
 		<h5>Maandag 00:00</h5>
 		<h4>De enthousiaste disputen van SSR-Leiden gaan te strijd</h4>
 		<p>
-			De aftrap van de DCW is toch eindelijk daar. Wie gaat er winnen, wie gaan er sneuvelen. U leest heet het mee op deze live-blog!
+			De aftrap van de DCW is toch eindelijk daar. Wie gaat er winnen, wie gaan er sneuvelen. U
+			leest heet het mee op deze live-blog!
 		</p>
 	</article>
 	<article>
@@ -91,12 +173,19 @@
 		.container {
 			border-top: 2px solid var(--ink-color);
 			border-right: 2px solid var(--ink-color);
-            max-width: 720px;
-            margin: auto;
+			max-width: 720px;
+			margin: auto;
 		}
 		article {
-            border-top: 2px solid var(--ink-color);
+			border-top: 2px solid var(--ink-color);
 			margin-bottom: 10px;
 		}
+	}
+
+	th,
+	td {
+		border: 1px solid black;
+		font-size: 0.8em;
+		padding: 2px;
 	}
 </style>

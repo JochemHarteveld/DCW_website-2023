@@ -7,7 +7,7 @@
 
 	onMount(() => {
 		groups = disputen;
-		groups.push({name: "Klinkt Bekend", score: 44});
+		groups.push({name: "Klinkt Bekend", score: 225});
 		groups = groups.sort((a, b) => b.score - a.score);
 		console.log(groups)
 	});
