@@ -265,6 +265,75 @@ export const assignments = [
             ["Nagerecht", "1", "20:50 - 21.20", "K.O.B.R.A., Zoutkorrel, 9X7"],
             ["Nagerecht", "2", "21:20 - 21:50", "T.A.E.N.I.A., Bokkerijders, Volante"],
         ],
+    },
+    {
+        daypart: "Vrijdagmiddag",
+        title: "Eindspel - The Last Round  ",
+        location: "Ronde 1 begint thuis, verdere locaties worden gegeven bij het voltooien van de opdrachten. Neem je fiets dus mee!        ",
+        startTime: "11u00 (zie schema)",
+        endTime: null,
+        recommendedNumberOfParticipants: "1 contactpersoon",
+        deliverMethod: null,
+        compensation: null,
+        description: "De tijd begint te dringen. In een strijd die veel overeenkomsten vertoont met de welbekende Hunger Games, concurreren alle disputen tegen elkaar in dit laatste eindspel! Zijn jullie nog in staat om na alle hartstochtelijke avonturen van de afgelopen week jullie hersens te gebruiken en samen met je mededispuutsgenoten de verschillende uitdagingen tijdens dit eindspel aan te gaan? May the odds be ever in your favor…",
+        requirements: [
+            "DCW-commissielid benadert contactpersoon van dispuut."
+        ],
+        schedule:
+            [
+                ["Tijd", "Activiteit"],
+
+                ["11:00", "Zephyr"], //start 11:00
+                ["11:00", "L.U.C.I.F.E.R."],
+                ["11:00", "Zoutkorrel"],
+                ["11:00", "Amaryllis"],
+
+                ["11:45", "Terra F."],
+                ["11:45", "Perropates"],
+                ["11:45", "9x7"],
+                ["11:45", "Bokkerijders"],
+
+                ["12:30", "BLOQ"],
+                ["12:30", "C.U.P.A."],
+                ["12:30", "Volante"],
+                ["12:30", "T.A.E.N.I.A."],
+
+                ["13:15", "K.O.B.R.A."],
+                ["13:15", "K.I.N.K. ID"],
+                ["13:15", "L.D.G. Soixante-neuf"],
+                ["13:15", "M.O.C.C.A."],
+
+                ["14:00", "VINUM"],
+                ["14:00", "Corduroy"],
+                ["14:00", "Supra Modum"],
+                ["14:00", "Witte Wieven"],
+            ],
+
+        // [
+        //     ["Tijd", "Dispuut",],
+
+
+
+
+        //   ],
+    },
+    {
+        daypart: "Vrijdagavond",
+        title: "Uitreiking",
+        location: "SSR",
+        startTime: "22:00",
+        endTime: null,
+        recommendedNumberOfParticipants: "1 contactpersoon",
+        deliverMethod: null,
+        compensation: null,
+        description: "In een laatste knalfeest zullen we ten allen door dansen tot het einde nabij is! Met behulp van een fenomenale artiest genaamd DJPJ gaan we met zijn allen ultiem genieten van ons laatste moment samen tijdens deze DCW!!",
+        requirements: [
+            "Bonusopdracht: helemaal naar de tering gaan!!!",
+        ],
+        schedule: [
+            ["Tijd", "Activiteit"],
+            ["Jij", "Trek een"]
+        ],
     }
 
 
