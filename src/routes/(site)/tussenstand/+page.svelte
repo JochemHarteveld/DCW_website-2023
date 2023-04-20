@@ -6,7 +6,9 @@
 	let groups = [];
 
 	onMount(() => {
-		groups = disputen.sort((a, b) => b.score - a.score);
+		groups = disputen;
+		groups.push({name: "Klinkt Bekend", score: 44});
+		groups = groups.sort((a, b) => b.score - a.score);
 		console.log(groups)
 	});
 
