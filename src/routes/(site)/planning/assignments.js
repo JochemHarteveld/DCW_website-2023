@@ -332,15 +332,9 @@ export const assignments = [
         ],
         schedule: [
             ["Tijd", "Activiteit"],
-            ["Jij", "Trek een"]
+            ["Nu", "Trek een bak"]
         ],
     }
-
-
-
-
-
-
 ];
 
 
